@@ -42,6 +42,12 @@ In another way, we can use only needed firebase services, such as database, push
 6. In your firebase project enable authentication and create any user (for now no sign up logic is presented, so you need to create account manually)
 7. After sign in, select or create new board and then go into it.
 
+## Project features
+1. Authentication - user can create an account and login to different boards, invitations functionality could be added easily.
+2. Kanban - tasks, grouped by statuses, task time tracking.
+3. RealTime editing - While editing task it have real-time changes, so if other user in board changes it, then it will display in detailed page to  other users. 
+4. Export - Export data to csv.
+
 ## How to export data
 1. Create a task via plus button
 2. Start time tracking and then finish it
