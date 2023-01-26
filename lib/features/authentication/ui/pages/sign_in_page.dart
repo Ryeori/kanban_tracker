@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kanban_tracker/core/navigation/app_router.gr.dart';
 import 'package:kanban_tracker/core/styles/app_sizes.dart';
-import 'package:kanban_tracker/features/authentication/authentication_bloc/authentication_bloc.dart';
+import 'package:kanban_tracker/features/authentication/logic/authentication_bloc/authentication_bloc.dart';
 import 'package:kanban_tracker/features/authentication/models/authentication_providers/email_authentication/provider_data/email_authentication_provider_sign_in_data.dart';
 
 class SignInPage extends StatefulWidget {

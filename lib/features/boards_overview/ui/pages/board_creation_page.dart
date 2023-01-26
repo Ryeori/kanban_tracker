@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kanban_tracker/core/navigation/app_router.gr.dart';
 import 'package:kanban_tracker/core/styles/app_sizes.dart';
-import 'package:kanban_tracker/features/authentication/authentication_bloc/authentication_bloc.dart';
-import 'package:kanban_tracker/features/boards_overview/boards_overview_cubit/boards_overview_cubit.dart';
+import 'package:kanban_tracker/features/authentication/logic/authentication_bloc/authentication_bloc.dart';
+import 'package:kanban_tracker/features/boards_overview/logic/boards_overview_cubit/boards_overview_cubit.dart';
 
 class BoardCreationPage extends StatefulWidget {
   const BoardCreationPage({

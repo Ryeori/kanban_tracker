@@ -5,8 +5,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:injectable/injectable.dart';
 import 'package:kanban_tracker/core/models/app_user/app_user.dart';
 import 'package:kanban_tracker/core/utils/firebase_boards_api_utils.dart';
-import 'package:kanban_tracker/features/board/models/board/board.dart';
-import 'package:kanban_tracker/features/board/models/board_user/board_user.dart';
+import 'package:kanban_tracker/features/board_management/models/board/board.dart';
+import 'package:kanban_tracker/features/board_management/models/board_user/board_user.dart';
 
 import 'package:kanban_tracker/features/boards_overview/api/boards_overview_api.dart';
 import 'package:uuid/uuid.dart';

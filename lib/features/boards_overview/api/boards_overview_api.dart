@@ -1,4 +1,4 @@
-import 'package:kanban_tracker/features/board/models/board/board.dart';
+import 'package:kanban_tracker/features/board_management/models/board/board.dart';
 
 abstract class BoardsOverviewApi {
   Future<Board?> createNewBoard({required Board newBoard});

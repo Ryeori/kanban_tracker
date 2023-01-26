@@ -5,8 +5,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kanban_tracker/core/navigation/app_router.gr.dart';
 import 'package:kanban_tracker/core/styles/app_sizes.dart';
 import 'package:kanban_tracker/core/styles/durations.dart';
-import 'package:kanban_tracker/features/authentication/authentication_bloc/authentication_bloc.dart';
-import 'package:kanban_tracker/features/settings/logic/cubit/settings_cubit.dart';
+import 'package:kanban_tracker/features/authentication/logic/authentication_bloc/authentication_bloc.dart';
+import 'package:kanban_tracker/features/settings/logic/settings_cubit/settings_cubit.dart';
 
 class AppDrawer extends StatefulWidget {
   const AppDrawer({
@@ -53,7 +53,7 @@ class _AppDrawerState extends State<AppDrawer> {
                             .navigate(const CompletedTaskHistoryPageRoute()),
                       );
                     },
-                    child: const Text('History'),
+                    child: const Text('Board history'),
                   ),
                   TextButton(
                     onPressed: () async {

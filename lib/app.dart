@@ -5,7 +5,7 @@ import 'package:kanban_tracker/core/navigation/app_router.gr.dart';
 import 'package:kanban_tracker/core/widgets/core_providers_wrapper.dart';
 import 'package:kanban_tracker/core/widgets/lifecycle_listener.dart';
 import 'package:kanban_tracker/features/authentication/ui/widgets/authentication_listener.dart';
-import 'package:kanban_tracker/features/settings/logic/cubit/settings_cubit.dart';
+import 'package:kanban_tracker/features/settings/logic/settings_cubit/settings_cubit.dart';
 
 class App extends StatefulWidget {
   const App({super.key});

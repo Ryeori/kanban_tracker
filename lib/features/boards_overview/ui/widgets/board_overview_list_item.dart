@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:kanban_tracker/core/styles/app_sizes.dart';
-import 'package:kanban_tracker/features/board/models/board/board.dart';
+import 'package:kanban_tracker/features/board_management/models/board/board.dart';
 
 class BoardOverviewListItem extends StatelessWidget {
   const BoardOverviewListItem({
@@ -25,7 +25,10 @@ class BoardOverviewListItem extends StatelessWidget {
             children: [
               Text(
                 board.title,
-                style: Theme.of(context).textTheme.headline5,
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyText1
+                    ?.copyWith(fontSize: 17),
               ),
             ],
           ),

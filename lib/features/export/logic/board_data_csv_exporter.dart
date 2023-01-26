@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:csv/csv.dart';
 import 'package:kanban_tracker/core/utils/date_format_utils.dart';
-import 'package:kanban_tracker/features/board/models/board_task/board_task.dart';
+import 'package:kanban_tracker/features/board_management/models/board_task/board_task.dart';
 import 'package:kanban_tracker/features/export/logic/csv_exporter.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
