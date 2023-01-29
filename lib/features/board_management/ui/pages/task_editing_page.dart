@@ -33,7 +33,7 @@ class _TaskEditingPageState extends State<TaskEditingPage> {
   DateTime? createdAt;
   BoardStatus? boardStatus;
 
-  late final List<BoardStatus> abalibleStatuses;
+  List<BoardStatus> abalibleStatuses = [];
 
   @override
   void initState() {
