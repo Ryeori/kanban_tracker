@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>985187200437-2866nvlg8sj6starjed4cvflc058trd7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.985187200437-2866nvlg8sj6starjed4cvflc058trd7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA_1MhNhWX8NNZM5Kzq90UuyOufNrGIZdk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>985187200437</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.daniqshu.kanbanTracker</string>
+	<key>PROJECT_ID</key>
+	<string>kanbantest-2e9ea</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kanbantest-2e9ea.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:985187200437:ios:441fa7e570e132944bbdfc</string>
+	<key>DATABASE_URL</key>
+	<string>https://kanbantest-2e9ea-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "985187200437",
+    "firebase_url": "https://kanbantest-2e9ea-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kanbantest-2e9ea",
+    "storage_bucket": "kanbantest-2e9ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985187200437:android:ea2ac44ca29162144bbdfc",
+        "android_client_info": {
+          "package_name": "com.example.kanban_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985187200437-9hrcvghlscl2d8fpboaht0hriakvovah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOUM90uROLjue21pmfmhCzX6FKfPY4JKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985187200437-9hrcvghlscl2d8fpboaht0hriakvovah.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "985187200437-0h4384tb1qsdiaihfooph4m9t6a0gtui.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kanbanTracker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
