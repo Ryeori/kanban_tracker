@@ -40,7 +40,11 @@ In another way, we can use only needed firebase services, such as database, push
     ```
     
 6. In your firebase project enable authentication and create any user (for now no sign up logic is presented, so you need to create account manually)
-7. After sign in, select or create new board and then go into it.
+7. Run codegen
+```bash
+flutter pub run build_runner build --delete-conflicting-outputs
+```
+8. After sign in, select or create new board and then go into it.
 
 ## Project features
 1. Authentication - user can create an account and login to different boards, invitations functionality could be added easily.
